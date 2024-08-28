@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.ericsson.ci.nss</groupId>
+        <artifactId>nss-testware</artifactId>
+        <version>1.0.38-SNAPSHOT</version>
+    </parent>
+    <artifactId>ERICTAFnsstestware_CXP9035457</artifactId>
+    <dependencies>
+        <dependency>
+            <groupId>com.ericsson.cifwk</groupId>
+            <artifactId>all-taf-sdk</artifactId>
+            <type>pom</type>
+        </dependency>
+        <dependency>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>ERICTAFnsstestware_operators</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+    </dependencies>
+</project>
